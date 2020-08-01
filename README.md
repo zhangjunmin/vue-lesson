@@ -8,7 +8,9 @@
         - 项目依赖（vue、vuex、vue-router）
     - webpack配置
         - 配置入口文件 entry 输出文件 output
-        - 配置编译信息 vue(vue-loader vue-template-compiler,style-loader)，js(babel-loader,@babel/core)，css(css-loader,style-loader)
+        - 配置编译信息 vue(vue-loader vue-template-compiler,style-loader)，js(babel-loader,@babel/core)，css(css-loader,style-loader), icon字体 test: \.(eot|svg|ttf|woff|woff2)(\?\S*)? loader: file-loader
         - 生成html html-webpack-plugin
         - 开启服务 webpack-dev-server,cross-env（配置命令，配置 服务信息   
-        备注：区分 生成环境 开发环境
+        备注：
+          - 区分 生成环境 开发环境
+          - 配置router时，初始化时参数 routes 并不是routers

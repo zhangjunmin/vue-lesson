@@ -32,6 +32,11 @@
             },{
                 test: /\.css/,
                 loader:['style-loader', 'css-loader']
+            },
+            // 如果css中用了icon字体必须
+            {
+              test: /\.(eot|svg|ttf|woff|woff2)(\?\S*)?$/,
+              loader: 'file-loader'
             }
         ]
     },

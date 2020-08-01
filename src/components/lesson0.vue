@@ -1,5 +1,11 @@
 <template>
     <div>
-        hello vuejs
+         <strong>为什么要学习vue</strong>
+         <ol>
+             <li>门槛低，只要会html，js，css你就能进行开发。</li>
+             <li>组件式开发，可以多处复用，加快开发进度</li>
+             <li>数据采用双向绑定，虚拟dom渲染，性能高，让你只关注业务实现</li>
+             <li>通过uniapp可以快速进行微信小程序，手机应用开发，做到学会一门技术，多处收益</li>
+         </ol>
     </div>
 </template>
